@@ -117,8 +117,6 @@ function getNextPalindromeDate(date) {
   }
 }
 
-
-
 var bdayInput = document.querySelector("#Bday-input");
 var showBtn = document.querySelector("#show-btn");
 var resultDiv = document.querySelector("#result");
@@ -158,6 +156,5 @@ function clickHandler(e) {
       resultDiv.innerText = "Yay! Your birthday is palindrome!";
     }
   }
-
 
 showBtn.addEventListener("click", clickHandler);
